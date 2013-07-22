@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		936B3CAF179D30EF0016926F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B3CAE179D30EF0016926F /* UIKit.framework */; };
+		936B3CB1179D30EF0016926F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B3CB0179D30EF0016926F /* Foundation.framework */; };
+		936B3CB3179D30EF0016926F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936B3CB2179D30EF0016926F /* CoreGraphics.framework */; };
+		936B3CB9179D30EF0016926F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 936B3CB7179D30EF0016926F /* InfoPlist.strings */; };
+		936B3CBB179D30EF0016926F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 936B3CBA179D30EF0016926F /* main.m */; };
+		936B3CBF179D30EF0016926F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 936B3CBE179D30EF0016926F /* AppDelegate.m */; };
+		936B3CC1179D30EF0016926F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 936B3CC0179D30EF0016926F /* Default.png */; };
+		936B3CC3179D30EF0016926F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 936B3CC2179D30EF0016926F /* Default@2x.png */; };
+		936B3CC5179D30EF0016926F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 936B3CC4179D30EF0016926F /* Default-568h@2x.png */; };
+		936B3CCF179D32220016926F /* iPhoneMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936B3CCE179D32220016926F /* iPhoneMainViewController.m */; };
+		936B3CD2179D323C0016926F /* iPadMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936B3CD1179D323C0016926F /* iPadMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		936B3CAB179D30EF0016926F /* CafeCreatium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeCreatium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		936B3CAE179D30EF0016926F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		936B3CB0179D30EF0016926F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		936B3CB2179D30EF0016926F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		936B3CB6179D30EF0016926F /* CafeCreatium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CafeCreatium-Info.plist"; sourceTree = "<group>"; };
+		936B3CB8179D30EF0016926F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		936B3CBA179D30EF0016926F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		936B3CBC179D30EF0016926F /* CafeCreatium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CafeCreatium-Prefix.pch"; sourceTree = "<group>"; };
+		936B3CBD179D30EF0016926F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		936B3CBE179D30EF0016926F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		936B3CC0179D30EF0016926F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		936B3CC2179D30EF0016926F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		936B3CC4179D30EF0016926F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		936B3CCD179D32220016926F /* iPhoneMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMainViewController.h; sourceTree = "<group>"; };
+		936B3CCE179D32220016926F /* iPhoneMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneMainViewController.m; sourceTree = "<group>"; };
+		936B3CD0179D323C0016926F /* iPadMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPadMainViewController.h; path = ../iPadMainViewController.h; sourceTree = "<group>"; };
+		936B3CD1179D323C0016926F /* iPadMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPadMainViewController.m; path = ../iPadMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		936B3CA8179D30EF0016926F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936B3CAF179D30EF0016926F /* UIKit.framework in Frameworks */,
+				936B3CB1179D30EF0016926F /* Foundation.framework in Frameworks */,
+				936B3CB3179D30EF0016926F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		936B3CA2179D30EF0016926F = {
+			isa = PBXGroup;
+			children = (
+				936B3CB4179D30EF0016926F /* CafeCreatium */,
+				936B3CAD179D30EF0016926F /* Frameworks */,
+				936B3CAC179D30EF0016926F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		936B3CAC179D30EF0016926F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				936B3CAB179D30EF0016926F /* CafeCreatium.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		936B3CAD179D30EF0016926F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				936B3CAE179D30EF0016926F /* UIKit.framework */,
+				936B3CB0179D30EF0016926F /* Foundation.framework */,
+				936B3CB2179D30EF0016926F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		936B3CB4179D30EF0016926F /* CafeCreatium */ = {
+			isa = PBXGroup;
+			children = (
+				936B3CBD179D30EF0016926F /* AppDelegate.h */,
+				936B3CBE179D30EF0016926F /* AppDelegate.m */,
+				936B3CCC179D318C0016926F /* iPad */,
+				936B3CCB179D31810016926F /* iPhone */,
+				936B3CCD179D32220016926F /* iPhoneMainViewController.h */,
+				936B3CCE179D32220016926F /* iPhoneMainViewController.m */,
+				936B3CB5179D30EF0016926F /* Supporting Files */,
+			);
+			path = CafeCreatium;
+			sourceTree = "<group>";
+		};
+		936B3CB5179D30EF0016926F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				936B3CB6179D30EF0016926F /* CafeCreatium-Info.plist */,
+				936B3CB7179D30EF0016926F /* InfoPlist.strings */,
+				936B3CBA179D30EF0016926F /* main.m */,
+				936B3CBC179D30EF0016926F /* CafeCreatium-Prefix.pch */,
+				936B3CC0179D30EF0016926F /* Default.png */,
+				936B3CC2179D30EF0016926F /* Default@2x.png */,
+				936B3CC4179D30EF0016926F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		936B3CCB179D31810016926F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		936B3CCC179D318C0016926F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				936B3CD0179D323C0016926F /* iPadMainViewController.h */,
+				936B3CD1179D323C0016926F /* iPadMainViewController.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		936B3CAA179D30EF0016926F /* CafeCreatium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 936B3CC8179D30EF0016926F /* Build configuration list for PBXNativeTarget "CafeCreatium" */;
+			buildPhases = (
+				936B3CA7179D30EF0016926F /* Sources */,
+				936B3CA8179D30EF0016926F /* Frameworks */,
+				936B3CA9179D30EF0016926F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeCreatium;
+			productName = CafeCreatium;
+			productReference = 936B3CAB179D30EF0016926F /* CafeCreatium.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		936B3CA3179D30EF0016926F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Matthew;
+			};
+			buildConfigurationList = 936B3CA6179D30EF0016926F /* Build configuration list for PBXProject "CafeCreatium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 936B3CA2179D30EF0016926F;
+			productRefGroup = 936B3CAC179D30EF0016926F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				936B3CAA179D30EF0016926F /* CafeCreatium */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		936B3CA9179D30EF0016926F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936B3CB9179D30EF0016926F /* InfoPlist.strings in Resources */,
+				936B3CC1179D30EF0016926F /* Default.png in Resources */,
+				936B3CC3179D30EF0016926F /* Default@2x.png in Resources */,
+				936B3CC5179D30EF0016926F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		936B3CA7179D30EF0016926F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				936B3CBB179D30EF0016926F /* main.m in Sources */,
+				936B3CBF179D30EF0016926F /* AppDelegate.m in Sources */,
+				936B3CCF179D32220016926F /* iPhoneMainViewController.m in Sources */,
+				936B3CD2179D323C0016926F /* iPadMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		936B3CB7179D30EF0016926F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				936B3CB8179D30EF0016926F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		936B3CC6179D30EF0016926F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		936B3CC7179D30EF0016926F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		936B3CC9179D30EF0016926F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafeCreatium/CafeCreatium-Prefix.pch";
+				INFOPLIST_FILE = "CafeCreatium/CafeCreatium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		936B3CCA179D30EF0016926F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CafeCreatium/CafeCreatium-Prefix.pch";
+				INFOPLIST_FILE = "CafeCreatium/CafeCreatium-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		936B3CA6179D30EF0016926F /* Build configuration list for PBXProject "CafeCreatium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936B3CC6179D30EF0016926F /* Debug */,
+				936B3CC7179D30EF0016926F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		936B3CC8179D30EF0016926F /* Build configuration list for PBXNativeTarget "CafeCreatium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				936B3CC9179D30EF0016926F /* Debug */,
+				936B3CCA179D30EF0016926F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 936B3CA3179D30EF0016926F /* Project object */;
+}
