@@ -5,6 +5,7 @@
 //  Created by Dmitry Klimkin on 16/6/13.
 //  Copyright (c) 2013 Dmitry Klimkin. All rights reserved.
 //
+// Credit to: 'Dmitry Klimkin' => 'dmitry@bubbly.net' @ https://github.com/kronik/DKLiveBlur
 
 #import "DKLiveBlurView.h"
 #import <Accelerate/Accelerate.h>

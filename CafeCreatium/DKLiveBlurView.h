@@ -5,6 +5,7 @@
 //  Created by Matthew on 7/25/13.
 //  Copyright (c) 2013 Matthew. All rights reserved.
 //
+// Credit to: 'Dmitry Klimkin' => 'dmitry@bubbly.net' @ https://github.com/kronik/DKLiveBlur
 
 #import <UIKit/UIKit.h>
 
