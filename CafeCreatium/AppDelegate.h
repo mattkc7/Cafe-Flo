@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @class iPhoneMainViewController, iPadMainViewController;
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate> {
+    BOOL isPlaying;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

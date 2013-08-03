@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface iPhoneMainViewController : UIViewController
+@class AmbienceViewController;
+@interface iPhoneMainViewController : UIViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 
+@property (strong, nonatomic) UIPageViewController *pageController;
+@property (nonatomic, retain) UIPageControl *pageControl;
+@property (nonatomic, retain) AmbienceViewController *initialViewController;
+@property (nonatomic, retain) AmbienceViewController *floInfo;
 @end
