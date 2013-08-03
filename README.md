@@ -1,7 +1,7 @@
-Cafe Creatium
+Cafe Flo
 =========
 
-Cafe Creatium is a work in progress for iOS!
+Cafe Flo: A coffee shop ambience app. It's just you and the flow. Nothing else.
 
 
 Version
